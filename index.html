@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Saw</title>
+    <!-- =========== bootstrap ============== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <!-- =========== css file ============== -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- =========== icons file ============== -->
+    <link rel="stylesheet" type="text/css" href="icomoon/icomoon.css" />
+  </head>
+  <body>
+    <!-- =========== header ============== -->
+    <header>
+      <div class="header">
+        <div class="top-content">
+          <div class="social-icons">
+            <a href="http://facebook.com">
+              <i class="icon icon-facebook"></i
+            ></a>
+            <a href="http://youtube.com"
+              ><i class="icon icon-youtube-play"></i
+            ></a>
+            <a href="http://x.com"><i class="icon icon-twitter"></i></a>
+            <a href="http://behance.com"
+              ><i class="icon icon-behance-square"></i
+            ></a>
+          </div>
+          <div class="content-right">
+            <div class="account">
+              <a href="#"> <i class="icon icon-user"></i> account</a>
+            </div>
+            <div class="cart">
+              <a href="#"> <i class="icon icon-clipboard"></i>cart</a>
+            </div>
+            <div class="search">
+              <a href="#"> <i class="icon icon-search"></i> </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="header-content-fluid">
+          <div class="logo">
+            <img src="images/main-logo.png" alt="logo image" />
+          </div>
+          <nav class="nav">
+            <ul class="menu-list">
+              <li class="active"><a href="#home"> Home</a></li>
+              <li><a href="#feature"> Featured</a></li>
+              <li><a href="#popular"> popular</a></li>
+              <li><a href="#special-offer"> offer</a></li>
+              <li><a href="#latest-blog"> articles</a></li>
+              <li><a href="#download"> download app</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- =========home================= -->
+    <section class="home">
+      <div
+        id="carouselExampleFade"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item d-flex active">
+            <div class="banner-content">
+              <h2 class="banner-title">Life of the Wild</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu
+                feugiat amet, libero ipsum enim pharetra hac. Urna commodo,
+                lacus ut magna velit eleifend. Amet, quis urna, a eu.
+              </p>
+              <div class="btn-wrap">
+                <a href="#" class="btn btn-outline-accent btn-accent-arrow"
+                  >Read More <i class="icon icon-ns-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="carousel-img">
+              <img src="images/main-banner1.jpg" class="d-block" alt="image" />
+            </div>
+          </div>
+          <div class="carousel-item d-flex">
+            <div class="banner-content">
+              <h2 class="banner-title">Birds gonna be Happy</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu
+                feugiat amet, libero ipsum enim pharetra hac. Urna commodo,
+                lacus ut magna velit eleifend. Amet, quis urna, a eu.
+              </p>
+              <div class="btn-wrap">
+                <a href="#" class="btn btn-outline-accent btn-accent-arrow"
+                  >Read More <i class="icon icon-ns-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="carousel-img">
+              <img src="images/main-banner2.jpg" class="d-block" alt="image" />
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- =========after home section================= -->
+    <section class="client-holder" id="client-holder">
+      <div class="container">
+        <div class="inner-content">
+          <div class="grid">
+            <a href="#"><img src="images/client-image1.png" alt="image" /> </a>
+            <a href="#"><img src="images/client-image2.png" alt="image" /> </a>
+            <a href="#"><img src="images/client-image3.png" alt="image" /> </a>
+            <a href="#"><img src="images/client-image4.png" alt="image" /> </a>
+            <a href="#"><img src="images/client-image5.png" alt="image" /> </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =========features================= -->
+    <section class="feature py-5 my-5" id="feature">
+      <div class="container">
+        <span class="section-text">Some quality items</span>
+        <h1 class="section-title">featured books</h1>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="product-item">
+              <figure class="product-style">
+                <img src="images/product-item1.jpg" class="product-item" />
+                <button type="button" class="add-to-cart">add to cart</button>
+              </figure>
+              <figcaption>
+                <h3>Simple way of piece life</h3>
+                <span>Armor Ramsey</span>
+                <div class="item-price">$ 40.00</div>
+              </figcaption>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="product-item">
+              <figure class="product-style">
+                <img src="images/product-item2.jpg" class="product-item" />
+                <button type="button" class="add-to-cart">add to cart</button>
+              </figure>
+              <figcaption>
+                <h3>Great travel at desert</h3>
+                <span>Sanchit Howdy</span>
+                <div class="item-price">$ 38.00</div>
+              </figcaption>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="product-item">
+              <figure class="product-style">
+                <img src="images/product-item3.jpg" class="product-item" />
+                <button type="button" class="add-to-cart">add to cart</button>
+              </figure>
+              <figcaption>
+                <h3>The lady beauty Scarlett</h3>
+                <span>Arthur Doyle</span>
+                <div class="item-price">$ 45.00</div>
+              </figcaption>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="product-item">
+              <figure class="product-style">
+                <img src="images/product-item4.jpg" class="product-item" />
+                <button type="button" class="add-to-cart">add to cart</button>
+              </figure>
+              <figcaption>
+                <h3>Once upon a time</h3>
+                <span>Klien Marry</span>
+                <div class="item-price">$ 35.00</div>
+              </figcaption>
+            </div>
+          </div>
+        </div>
+        <div class="row second">
+          <div class="col-md-12">
+            <div class="btn-wrap align-right">
+              <a href="#" class="btn-accent-arrow"
+                >View all products <i class="icon icon-ns-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =========best selling================= -->
+    <section class="best-selling" id="best-selling">
+      <div class="conatiner">
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-md-6">
+                <figure class="best-img">
+                  <img
+                    src="images/single-image.jpg"
+                    alt="book"
+                    class="single-image"
+                  />
+                </figure>
+              </div>
+              <div class="col-md-6">
+                <div class="best-content">
+                  <h2 class="section-title divider">Best Selling Book</h2>
+
+                  <div class="products-content">
+                    <div class="author-name">By Timbur Hood</div>
+                    <h3 class="item-title">Birds gonna be happy</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Sed eu feugiat amet, libero ipsum enim pharetra hac.
+                    </p>
+                    <div class="item-price">$ 45.00</div>
+                    <div class="btn-wrap">
+                      <a href="#" class="btn-accent-arrow"
+                        >shop it now <i class="icon icon-ns-arrow-right"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =========popular================= -->
+    <section class="popular py-5 my-5" id="popular">
+      <div class="container">
+        <span class="section-text">Some quality items</span>
+        <h1 class="section-title">popular books</h1>
+        <div class="row">
+          <div class="col-md-3">
+            <ul class="tabs">
+              <li data-tab-target="#all-genre" class="active tab" id="allData">
+                All
+              </li>
+              <li data-tab-target="#business" class="tab" id="businessTab">
+                Business
+              </li>
+              <li data-tab-target="#technology" class="tab" id="technologyTab">
+                Technology
+              </li>
+              <li data-tab-target="#romantic" class="tab" id="romanticTab">
+                Romantic
+              </li>
+              <li data-tab-target="#adventure" class="tab" id="adventureTab">
+                Adventure
+              </li>
+              <li data-tab-target="#fictional" class="tab" id="fictionalTab">
+                Fictional
+              </li>
+            </ul>
+
+            <div class="cat-content">
+              <div id="all-genre" data-tab-content class="active">
+                <div class="row" id="first"></div>
+              </div>
+              <div id="business" data-tab-content>
+                <div class="row"></div>
+              </div>
+
+              <div id="romantic" data-tab-content>
+                <div class="row"></div>
+              </div>
+
+              <div id="adventure" data-tab-content>
+                <div class="row"></div>
+              </div>
+
+              <div id="fictional" data-tab-content>
+                <div class="row"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =========quoits================= -->
+    <section class="quotation" id="quotation" class="align-center pb-5 mb-5">
+      <div class="inner-content">
+        <h2 class="section-title divider">Quote of the day</h2>
+        <blockquote data-aos="fade-up">
+          <q
+            >“The more that you read, the more things you will know. The more
+            that you learn, the more places you’ll go.”</q
+          >
+          <div class="author-name">Dr. Seuss</div>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- =========special offers =================-->
+    <section class="special-offer py-5 my-5" id="special-offer">
+      <div class="container">
+        <span class="section-text">Grab your opportunity</span>
+        <h1 class="section-title">Books with offer</h1>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="product-item">
+              <figure class="product-style">
+                <img src="images/product-item5.jpg" class="product-item" />
+                <button type="button" class="add-to-cart">add to cart</button>
+              </figure>
+              <figcaption>
+                <h3>Simple way of piece life</h3>
+                <span>Armor Ramsey</span>
+                <div class="item-price">$ 40.00</div>
+              </figcaption>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="product-item">
+              <figure class="product-style">
+                <img src="images/product-item8.jpg" class="product-item" />
+                <button type="button" class="add-to-cart">add to cart</button>
+              </figure>
+              <figcaption>
+                <h3>Great travel at desert</h3>
+                <span>Sanchit Howdy</span>
+                <div class="item-price">$ 38.00</div>
+              </figcaption>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="product-item">
+              <figure class="product-style">
+                <img src="images/product-item6.jpg" class="product-item" />
+                <button type="button" class="add-to-cart">add to cart</button>
+              </figure>
+              <figcaption>
+                <h3>The lady beauty Scarlett</h3>
+                <span>Arthur Doyle</span>
+                <div class="item-price">$ 45.00</div>
+              </figcaption>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="product-item">
+              <figure class="product-style">
+                <img src="images/product-item7.jpg" class="product-item" />
+                <button type="button" class="add-to-cart">add to cart</button>
+              </figure>
+              <figcaption>
+                <h3>Once upon a time</h3>
+                <span>Klien Marry</span>
+                <div class="item-price">$ 35.00</div>
+              </figcaption>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- subscribe -->
+    <section id="subscribe" class="subscribe">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="title-element">
+                  <h2 class="section-title divider">
+                    Subscribe to our newsletter
+                  </h2>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="subscribe-content" data-aos="fade-up">
+                  <p>
+                    Sed eu feugiat amet, libero ipsum enim pharetra hac dolor
+                    sit amet, consectetur. Elit adipiscing enim pharetra hac.
+                  </p>
+                  <form id="form">
+                    <input
+                      type="text"
+                      name="email"
+                      placeholder="Enter your email addresss here"
+                    />
+                    <button class="btn-subscribe">
+                      <span>send</span>
+                      <i class="icon icon-send"></i>
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- latest -->
+    <section id="latest-blog" class="latest py-5 my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-header align-center">
+              <div class="title">
+                <span>Read our articles</span>
+              </div>
+              <h2 class="section-title">Latest Articles</h2>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4">
+                <article class="column" data-aos="fade-up">
+                  <figure>
+                    <a href="#" class="image-hvr-effect">
+                      <img
+                        src="images/post-img1.jpg"
+                        alt="post"
+                        class="post-image"
+                      />
+                    </a>
+                  </figure>
+
+                  <div class="post-item">
+                    <div class="meta-date">Mar 30, 2021</div>
+                    <h3>
+                      <a href="#"
+                        >Reading books always makes the moments happy</a
+                      >
+                    </h3>
+
+                    <div class="links-element">
+                      <div class="categories">inspiration</div>
+                      <div class="social-links">
+                        <ul>
+                          <li>
+                            <a href="#"><i class="icon icon-facebook"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="icon icon-twitter"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"
+                              ><i class="icon icon-behance-square"></i
+                            ></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <!--links-element-->
+                  </div>
+                </article>
+              </div>
+              <div class="col-md-4">
+                <article class="column" data-aos="fade-up" data-aos-delay="200">
+                  <figure>
+                    <a href="#" class="image-hvr-effect">
+                      <img
+                        src="images/post-img2.jpg"
+                        alt="post"
+                        class="post-image"
+                      />
+                    </a>
+                  </figure>
+                  <div class="post-item">
+                    <div class="meta-date">Mar 29, 2021</div>
+                    <h3>
+                      <a href="#"
+                        >Reading books always makes the moments happy</a
+                      >
+                    </h3>
+
+                    <div class="links-element">
+                      <div class="categories">inspiration</div>
+                      <div class="social-links">
+                        <ul>
+                          <li>
+                            <a href="#"><i class="icon icon-facebook"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="icon icon-twitter"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"
+                              ><i class="icon icon-behance-square"></i
+                            ></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <!--links-element-->
+                  </div>
+                </article>
+              </div>
+              <div class="col-md-4">
+                <article class="column" data-aos="fade-up" data-aos-delay="400">
+                  <figure>
+                    <a href="#" class="image-hvr-effect">
+                      <img
+                        src="images/post-img3.jpg"
+                        alt="post"
+                        class="post-image"
+                      />
+                    </a>
+                  </figure>
+                  <div class="post-item">
+                    <div class="meta-date">Feb 27, 2021</div>
+                    <h3>
+                      <a href="#"
+                        >Reading books always makes the moments happy</a
+                      >
+                    </h3>
+
+                    <div class="links-element">
+                      <div class="categories">inspiration</div>
+                      <div class="social-links">
+                        <ul>
+                          <li>
+                            <a href="#"><i class="icon icon-facebook"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="icon icon-twitter"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"
+                              ><i class="icon icon-behance-square"></i
+                            ></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <!--links-element-->
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="btn-wrap align-center">
+                <a
+                  href="#"
+                  class="btn btn-outline-accent btn-accent-arrow"
+                  tabindex="0"
+                  >Read All Articles</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- download -->
+    <section class="download" id="download">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-md-5">
+                <figure>
+                  <img
+                    src="images/device.png"
+                    alt="phone"
+                    class="single-image"
+                  />
+                </figure>
+              </div>
+
+              <div class="col-md-7">
+                <div class="app-info">
+                  <h2 class="section-title divider">Download our app now !</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Sagittis sed ptibus liberolectus nonet psryroin. Amet sed
+                    lorem posuere sit iaculis amet, ac urna. Adipiscing fames
+                    semper erat ac in suspendisse iaculis.
+                  </p>
+                  <div class="google-app">
+                    <img src="images/google-play.jpg" alt="google play" />
+                    <img src="images/app-store.jpg" alt="app store" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="footer">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-4">
+
+					<div class="footer-item">
+						<div class="company-brand">
+							<img src="images/main-logo.png" alt="logo" class="footer-logo">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis sed ptibus liberolectus
+								nonet psryroin. Amet sed lorem posuere sit iaculis amet, ac urna. Adipiscing fames
+								semper erat ac in suspendisse iaculis.</p>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="col-md-2">
+
+					<div class="footer-menu">
+						<h5>About Us</h5>
+						<ul class="menu-list">
+							<li class="menu-item">
+								<a href="#">vision</a>
+							</li>
+							<li class="menu-item">
+								<a href="#">articles </a>
+							</li>
+							<li class="menu-item">
+								<a href="#">careers</a>
+							</li>
+							<li class="menu-item">
+								<a href="#">service terms</a>
+							</li>
+							<li class="menu-item">
+								<a href="#">donate</a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+				<div class="col-md-2">
+
+					<div class="footer-menu">
+						<h5>Discover</h5>
+						<ul class="menu-list">
+							<li class="menu-item">
+								<a href="#">Home</a>
+							</li>
+							<li class="menu-item">
+								<a href="#">Books</a>
+							</li>
+							<li class="menu-item">
+								<a href="#">Authors</a>
+							</li>
+							<li class="menu-item">
+								<a href="#">Subjects</a>
+							</li>
+							<li class="menu-item">
+								<a href="#">Advanced Search</a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+				<div class="col-md-2">
+
+					<div class="footer-menu">
+						<h5>My account</h5>
+						<ul class="menu-list">
+							<li class="menu-item">
+								<a href="#">Sign In</a>
+							</li>
+							<li class="menu-item">
+								<a href="#">View Cart</a>
+							</li>
+							<li class="menu-item">
+								<a href="#">My Wishtlist</a>
+							</li>
+							<li class="menu-item">
+								<a href="#">Track My Order</a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+				<div class="col-md-2">
+
+					<div class="footer-menu">
+						<h5>Help</h5>
+						<ul class="menu-list">
+							<li class="menu-item">
+								<a href="#">Help center</a>
+							</li>
+							<li class="menu-item">
+								<a href="#">Report a problem</a>
+							</li>
+							<li class="menu-item">
+								<a href="#">Suggesting edits</a>
+							</li>
+							<li class="menu-item">
+								<a href="#">Contact us</a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+
+			</div>
+			<!-- / row -->
+
+		</div>
+	</footer>
+
+	<div id="footer-bottom" class="footer-bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+
+					<div class="copyright">
+						<div class="row">
+
+							<div class="col-md-6">
+								<p>© 2025 All rights reserved </p>
+							</div>
+
+							<div class="col-md-6">
+								<div class="social-links align-right">
+									<ul>
+										<li>
+											<a href="#"><i class="icon icon-facebook"></i></a>
+										</li>
+										<li>
+											<a href="#"><i class="icon icon-twitter"></i></a>
+										</li>
+										<li>
+											<a href="#"><i class="icon icon-youtube-play"></i></a>
+										</li>
+										<li>
+											<a href="#"><i class="icon icon-behance-square"></i></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+						</div>
+					</div><!--grid-->
+
+				</div><!--footer-bottom-content-->
+    <script src="main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
