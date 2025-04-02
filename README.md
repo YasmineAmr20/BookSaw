@@ -1,0 +1,1 @@
+Booksaw is an online book store template built using modern technologies like Bootstrap 5, HTML5, and CSS3. The template has a minimal look, providing comforting navigation across the page. There is a beautiful hero section that conveys a calm outlook with various types of book cover images and descriptions. 
